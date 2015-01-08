@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="ProteinDatabase">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Database"/>
+        <xs:element maxOccurs="unbounded" ref="ProteinEntry"/>
+      </xs:sequence>
+      <xs:attribute name="date" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+      <xs:attribute name="release" use="required" type="xs:decimal"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Database" type="xs:string"/>
+  <xs:element name="ProteinEntry">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="header"/>
+        <xs:element ref="protein"/>
+        <xs:element ref="organism"/>
+        <xs:element maxOccurs="unbounded" ref="reference"/>
+        <xs:element minOccurs="0" ref="genetics"/>
+        <xs:sequence minOccurs="0">
+          <xs:element ref="classification"/>
+          <xs:element ref="keywords"/>
+          <xs:element maxOccurs="unbounded" ref="feature"/>
+          <xs:element ref="summary"/>
+          <xs:element ref="sequence"/>
+        </xs:sequence>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="header">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="uid"/>
+        <xs:element maxOccurs="unbounded" ref="accession"/>
+        <xs:element ref="created_date"/>
+        <xs:element ref="seq-rev_date"/>
+        <xs:element ref="txt-rev_date"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="created_date" type="xs:NMTOKEN"/>
+  <xs:element name="seq-rev_date" type="xs:NMTOKEN"/>
+  <xs:element name="txt-rev_date" type="xs:NMTOKEN"/>
+  <xs:element name="protein">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="name" type="xs:string"/>
+  <xs:element name="organism">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="source"/>
+        <xs:element ref="common"/>
+        <xs:element ref="formal"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="source" type="xs:string"/>
+  <xs:element name="common" type="xs:string"/>
+  <xs:element name="formal" type="xs:string"/>
+  <xs:element name="reference">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="refinfo"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="contents"/>
+        <xs:choice minOccurs="0">
+          <xs:element ref="accinfo"/>
+          <xs:element ref="note"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="refinfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="authors"/>
+        <xs:element ref="citation"/>
+        <xs:choice minOccurs="0">
+          <xs:element ref="month"/>
+          <xs:element ref="volume"/>
+        </xs:choice>
+        <xs:element ref="year"/>
+        <xs:element minOccurs="0" ref="pages"/>
+        <xs:element minOccurs="0" ref="xml_repository"/>
+        <xs:element minOccurs="0" ref="title"/>
+        <xs:element minOccurs="0" ref="xrefs"/>
+      </xs:sequence>
+      <xs:attribute name="refid" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="authors">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="author"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="author" type="xs:string"/>
+  <xs:element name="citation">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="month" type="xs:NCName"/>
+  <xs:element name="volume" type="xs:integer"/>
+  <xs:element name="year" type="xs:integer"/>
+  <xs:element name="pages" type="xs:NMTOKEN"/>
+  <xs:element name="xml_repository" type="xs:string"/>
+  <xs:element name="title" type="xs:string"/>
+  <xs:element name="contents" type="xs:string"/>
+  <xs:element name="accinfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="accession"/>
+        <xs:element minOccurs="0" ref="status"/>
+        <xs:element ref="mol-type"/>
+        <xs:element ref="seq-spec"/>
+        <xs:element minOccurs="0" ref="xrefs"/>
+        <xs:element minOccurs="0" ref="exp-source"/>
+      </xs:sequence>
+      <xs:attribute name="label" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mol-type" type="xs:NCName"/>
+  <xs:element name="exp-source" type="xs:string"/>
+  <xs:element name="note" type="xs:string"/>
+  <xs:element name="genetics">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="introns"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="introns" type="xs:string"/>
+  <xs:element name="classification">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="superfamily"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="superfamily" type="xs:string"/>
+  <xs:element name="keywords">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="keyword"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="keyword" type="xs:string"/>
+  <xs:element name="feature">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="feature-type"/>
+        <xs:element ref="description"/>
+        <xs:element ref="seq-spec"/>
+        <xs:element minOccurs="0" ref="status"/>
+      </xs:sequence>
+      <xs:attribute name="label" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="feature-type" type="xs:NCName"/>
+  <xs:element name="description" type="xs:string"/>
+  <xs:element name="summary">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="length"/>
+        <xs:element ref="type"/>
+        <xs:element minOccurs="0" ref="status"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="length" type="xs:integer"/>
+  <xs:element name="type" type="xs:NCName"/>
+  <xs:element name="sequence" type="xs:string"/>
+  <xs:element name="uid" type="xs:NMTOKEN"/>
+  <xs:element name="accession" type="xs:NCName"/>
+  <xs:element name="xrefs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="xref"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="xref">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="db"/>
+        <xs:element ref="uid"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="db" type="xs:NCName"/>
+  <xs:element name="status" type="xs:string"/>
+  <xs:element name="seq-spec" type="xs:string"/>
+</xs:schema>

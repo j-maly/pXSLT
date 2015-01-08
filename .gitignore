@@ -41,3 +41,33 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+build/target/
+xmltest.xpr
+xmltest.xpr
+xmltest.xpr
+xmltest.xpr
+xmltest.xpr
+src/test/resources/xml/proteins.xml
+src/test/resources/xml/ruian_prague.xml
+pXSLT.xpr
+lib/saxon-license.lic
+src/test/bat/proteins-sample.bat
+src/test/bat/proteins.bat
+src/test/bat/ruian-sample.bat

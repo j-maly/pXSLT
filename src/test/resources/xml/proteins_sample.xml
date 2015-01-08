@@ -1,0 +1,3178 @@
+
+<ProteinDatabase release="70.03"  id="PIR-PSD"  date="09-Nov-2001" >
+
+    <Database>
+
+
+        P R O T E I N  S E Q U E N C E  D A T A B A S E
+        of PIR-International
+
+        Release 70.03, November 09, 2001
+        262525 sequences, 89717977 residues
+
+        Protein Information Resource (PIR)*
+        National Biomedical Research Foundation
+        3900 Reservoir Road, N.W.,
+        Washington, DC  20007, USA
+
+        Japan International Protein           Munich Information Center for
+        Information Database (JIPID)             Protein Sequences (MIPS)
+        Amakubo 1-16-1          GSF-Forschungszentrum f. Umwelt und Gesundheit
+        Tsukuba 305-0005, Japan            am Max-Planck-Instut f. Biochemie
+        Am Klopferspitz 18, D-82152 Martinsried, FRG
+
+        This database may be redistributed without prior consent, provided that
+        this notice be given to each user and that the words "Derived from" shall
+        precede this notice if the database has been altered by the redistributor.
+
+        Copyright 2000, PIR-International.
+
+        *PIR is a registered mark of NBRF.
+    </Database>
+
+    <ProteinEntry id="CCHU" >
+
+        <header>
+
+            <uid>
+                CCHU</uid>
+
+            <accession>
+                A31764</accession>
+
+            <accession>
+                A05676</accession>
+
+            <accession>
+                I55192</accession>
+
+            <accession>
+                A00001</accession>
+
+            <created_date>
+                24-Apr-1984</created_date>
+
+            <seq-rev_date>
+                30-Sep-1991</seq-rev_date>
+
+            <txt-rev_date>
+                28-Jul-2000</txt-rev_date>
+
+        </header>
+
+        <protein>
+
+            <name>
+                cytochrome c [validated]</name>
+
+        </protein>
+
+        <organism>
+
+            <source>
+                human</source>
+
+            <common>
+                man</common>
+
+            <formal>
+                Homo sapiens</formal>
+
+        </organism>
+
+        <reference>
+
+            <refinfo refid="A31764" >
+
+                <authors>
+
+                    <author>
+                        Evans, M.J.</author>
+
+                    <author>
+                        Scarpulla, R.C.</author>
+
+                </authors>
+
+                <citation>
+                    Proc. Natl. Acad. Sci. U.S.A.</citation>
+
+                <volume>
+                    85</volume>
+                <year>
+                    1988</year>
+                <pages>
+                    9625-9629</pages>
+
+                <title>
+                    The human somatic cytochrome c gene: two classes of processed pseudogenes demarcate a period of rapid molecular evolution.</title>
+
+                <xrefs>
+
+                    <xref>
+                        <db>
+                            MUID</db>
+                        <uid>
+                            89071748</uid>
+                    </xref>
+
+                </xrefs>
+
+            </refinfo>
+
+            <accinfo label="EVA" >
+
+                <accession>
+                    A31764</accession>
+
+                <mol-type>
+                    DNA</mol-type>
+
+                <seq-spec>
+                    1-105</seq-spec>
+
+                <xrefs>
+
+                    <xref>
+                        <db>
+                            GB</db>
+                        <uid>
+                            M22877</uid>
+                    </xref>
+
+                    <xref>
+                        <db>
+                            NID</db>
+                        <uid>
+                            g181241</uid>
+                    </xref>
+
+                    <xref>
+                        <db>
+                            PIDN</db>
+                        <uid>
+                            AAA35732.1</uid>
+                    </xref>
+
+                    <xref>
+                        <db>
+                            PID</db>
+                        <uid>
+                            g181242</uid>
+                    </xref>
+
+                </xrefs>
+
+            </accinfo>
+
+        </reference>
+
+        <reference>
+
+            <refinfo refid="A05676" >
+
+                <authors>
+
+                    <author>
+                        Matsubara, H.</author>
+
+                    <author>
+                        Smith, E.L.</author>
+
+                </authors>
+
+                <citation>
+                    J. Biol. Chem.</citation>
+
+                <volume>
+                    238</volume>
+                <year>
+                    1963</year>
+                <pages>
+                    2732-2753</pages>
+
+                <title>
+                    Human heart cytochrome c. Chymotryptic peptides, tryptic peptides, and the complete amino acid sequence.</title>
+
+            </refinfo>
+
+            <accinfo label="MATS" >
+
+                <accession>
+                    A05676</accession>
+
+                <mol-type>
+                    protein</mol-type>
+
+                <seq-spec>
+                    2-28;29-46;47-100;101-105</seq-spec>
+
+            </accinfo>
+
+        </reference>
+
+        <reference>
+
+            <refinfo refid="A00001" >
+
+                <authors>
+
+                    <author>
+                        Matsubara, H.</author>
+
+                    <author>
+                        Smith, E.L.</author>
+
+                </authors>
+
+                <citation>
+                    J. Biol. Chem.</citation>
+
+                <volume>
+                    237</volume>
+                <year>
+                    1962</year>
+                <pages>
+                    3575-3576</pages>
+
+                <title>
+                    The amino acid sequence of human heart cytochrome c.</title>
+
+            </refinfo>
+
+            <contents>
+                annotation</contents>
+
+            <note>
+                66-Leu is found in 10% of the molecules in pooled protein</note>
+
+        </reference>
+
+        <reference>
+
+            <refinfo refid="I55192" >
+
+                <authors>
+
+                    <author>
+                        Tanaka, Y.</author>
+
+                    <author>
+                        Ashikari, T.</author>
+
+                    <author>
+                        Shibano, Y.</author>
+
+                    <author>
+                        Amachi, T.</author>
+
+                    <author>
+                        Yoshizumi, H.</author>
+
+                    <author>
+                        Matsubara, H.</author>
+
+                </authors>
+
+                <citation>
+                    J. Biochem.</citation>
+
+                <volume>
+                    103</volume>
+                <year>
+                    1988</year>
+                <pages>
+                    954-961</pages>
+
+                <title>
+                    Construction of a human cytochrome c gene and its functional expression in Saccharomyces cerevisiae.</title>
+
+                <xrefs>
+
+                    <xref>
+                        <db>
+                            MUID</db>
+                        <uid>
+                            89008207</uid>
+                    </xref>
+
+                </xrefs>
+
+            </refinfo>
+
+            <accinfo label="RES" >
+
+                <accession>
+                    I55192</accession>
+
+                <status>
+                    translated from GB/EMBL/DDBJ</status>
+
+                <mol-type>
+                    mRNA</mol-type>
+
+                <seq-spec>
+                    78-105</seq-spec>
+
+                <xrefs>
+
+                    <xref>
+                        <db>
+                            GB</db>
+                        <uid>
+                            D00265</uid>
+                    </xref>
+
+                    <xref>
+                        <db>
+                            NID</db>
+                        <uid>
+                            g2897691</uid>
+                    </xref>
+
+                    <xref>
+                        <db>
+                            PIDN</db>
+                        <uid>
+                            BAA00187.1</uid>
+                    </xref>
+
+                    <xref>
+                        <db>
+                            PID</db>
+                        <uid>
+                            g219557</uid>
+                    </xref>
+
+                </xrefs>
+
+            </accinfo>
+
+        </reference>
+
+        <genetics>
+
+            <introns>
+                57/1</introns>
+
+        </genetics>
+
+        <classification>
+
+            <superfamily>
+                cytochrome c</superfamily>
+
+            <superfamily>
+                cytochrome c homology</superfamily>
+
+        </classification>
+
+        <keywords>
+
+            <keyword>
+                acetylated amino end</keyword>
+
+            <keyword>
+                chromoprotein</keyword>
+
+            <keyword>
+                electron transfer</keyword>
+
+            <keyword>
+                heme</keyword>
+
+            <keyword>
+                iron</keyword>
+
+            <keyword>
+                metalloprotein</keyword>
+
+            <keyword>
+                mitochondrion</keyword>
+
+            <keyword>
+                oxidative phosphorylation</keyword>
+
+            <keyword>
+                polymorphism</keyword>
+
+            <keyword>
+                respiratory chain</keyword>
+
+        </keywords>
+
+        <feature label="MAT" >
+
+            <feature-type>
+                product</feature-type>
+
+            <description>
+                cytochrome c</description>
+
+            <seq-spec>
+                2-105</seq-spec>
+
+            <status>
+                experimental</status>
+
+        </feature>
+
+        <feature label="CYC" >
+
+            <feature-type>
+                domain</feature-type>
+
+            <description>
+                cytochrome c homology</description>
+
+            <seq-spec>
+                5-99</seq-spec>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                modified-site</feature-type>
+
+            <description>
+                acetylated amino end (Gly) (in mature form)</description>
+
+            <seq-spec>
+                2</seq-spec>
+
+            <status>
+                experimental</status>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                binding-site</feature-type>
+
+            <description>
+                heme (Cys) (covalent)</description>
+
+            <seq-spec>
+                15,18</seq-spec>
+
+            <status>
+                experimental</status>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                binding-site</feature-type>
+
+            <description>
+                heme iron (His, Met) (axial ligands)</description>
+
+            <seq-spec>
+                19,81</seq-spec>
+
+            <status>
+                predicted</status>
+
+        </feature>
+
+        <summary>
+
+            <length>
+                105</length>
+
+            <type>
+                complete</type>
+
+        </summary>
+
+        <sequence>
+
+            MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIW
+            GEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE
+        </sequence>
+
+    </ProteinEntry>
+
+    <ProteinEntry id="CCCZ" >
+
+        <header>
+
+            <uid>
+                CCCZ</uid>
+
+            <accession>
+                A00002</accession>
+
+            <created_date>
+                17-Mar-1987</created_date>
+
+            <seq-rev_date>
+                17-Mar-1987</seq-rev_date>
+
+            <txt-rev_date>
+                03-Mar-2000</txt-rev_date>
+
+        </header>
+
+        <protein>
+
+            <name>
+                cytochrome c</name>
+
+        </protein>
+
+        <organism>
+
+            <source>
+                chimpanzee</source>
+
+            <common>
+                chimpanzee</common>
+
+            <formal>
+                Pan troglodytes</formal>
+
+        </organism>
+
+        <reference>
+
+            <refinfo refid="A94601" >
+
+                <authors>
+
+                    <author>
+                        Needleman, S.B.</author>
+
+                </authors>
+
+                <citation type="submission" >
+                    submitted to the Atlas</citation>
+
+                <month>
+                    October</month>
+                <year>
+                    1968</year>
+
+            </refinfo>
+
+            <accinfo label="NEE" >
+
+                <accession>
+                    A00002</accession>
+
+                <mol-type>
+                    protein</mol-type>
+
+                <seq-spec>
+                    1-104</seq-spec>
+
+            </accinfo>
+
+        </reference>
+
+        <reference>
+
+            <refinfo refid="A94455" >
+
+                <authors>
+
+                    <author>
+                        Needleman, S.B.</author>
+
+                    <author>
+                        Margoliash, E.</author>
+
+                </authors>
+
+                <citation type="other" >
+                    unpublished results, 1966, cited by Margoliash, E., and Fitch, W.M., Ann. N.Y. Acad. Sci. 151, 359-381</citation>
+
+                <year>
+                    1968</year>
+
+            </refinfo>
+
+            <contents>
+                annotation</contents>
+
+            <contents>
+                compositions of chymotryptic peptides</contents>
+
+        </reference>
+
+        <classification>
+
+            <superfamily>
+                cytochrome c</superfamily>
+
+            <superfamily>
+                cytochrome c homology</superfamily>
+
+        </classification>
+
+        <keywords>
+
+            <keyword>
+                acetylated amino end</keyword>
+
+            <keyword>
+                chromoprotein</keyword>
+
+            <keyword>
+                electron transfer</keyword>
+
+            <keyword>
+                heme</keyword>
+
+            <keyword>
+                iron</keyword>
+
+            <keyword>
+                metalloprotein</keyword>
+
+            <keyword>
+                mitochondrion</keyword>
+
+            <keyword>
+                oxidative phosphorylation</keyword>
+
+            <keyword>
+                respiratory chain</keyword>
+
+        </keywords>
+
+        <feature label="CYC" >
+
+            <feature-type>
+                domain</feature-type>
+
+            <description>
+                cytochrome c homology</description>
+
+            <seq-spec>
+                4-98</seq-spec>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                modified-site</feature-type>
+
+            <description>
+                acetylated amino end (Gly)</description>
+
+            <seq-spec>
+                1</seq-spec>
+
+            <status>
+                predicted</status>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                binding-site</feature-type>
+
+            <description>
+                heme (Cys) (covalent)</description>
+
+            <seq-spec>
+                14,17</seq-spec>
+
+            <status>
+                predicted</status>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                binding-site</feature-type>
+
+            <description>
+                heme iron (His, Met) (axial ligands)</description>
+
+            <seq-spec>
+                18,80</seq-spec>
+
+            <status>
+                predicted</status>
+
+        </feature>
+
+        <summary>
+
+            <length>
+                104</length>
+
+            <type>
+                complete</type>
+
+            <status>
+                tentative</status>
+
+        </summary>
+
+        <sequence>
+
+            GDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGIIWG
+            EDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE
+        </sequence>
+
+    </ProteinEntry>
+
+    <ProteinEntry id="CCMQR" >
+
+        <header>
+
+            <uid>
+                CCMQR</uid>
+
+            <accession>
+                A00003</accession>
+
+            <created_date>
+                17-Mar-1987</created_date>
+
+            <seq-rev_date>
+                17-Mar-1987</seq-rev_date>
+
+            <txt-rev_date>
+                03-Mar-2000</txt-rev_date>
+
+        </header>
+
+        <protein>
+
+            <name>
+                cytochrome c</name>
+
+        </protein>
+
+        <organism>
+
+            <source>
+                rhesus macaque</source>
+
+            <common>
+                rhesus macaque</common>
+
+            <formal>
+                Macaca mulatta</formal>
+
+        </organism>
+
+        <reference>
+
+            <refinfo refid="A00003" >
+
+                <authors>
+
+                    <author>
+                        Rothfus, J.A.</author>
+
+                    <author>
+                        Smith, E.L.</author>
+
+                </authors>
+
+                <citation>
+                    J. Biol. Chem.</citation>
+
+                <volume>
+                    240</volume>
+                <year>
+                    1965</year>
+                <pages>
+                    4277-4283</pages>
+
+                <title>
+                    Amino acid sequence of rhesus monkey heart cytochrome c.</title>
+
+                <xrefs>
+
+                    <xref>
+                        <db>
+                            MUID</db>
+                        <uid>
+                            66045191</uid>
+                    </xref>
+
+                </xrefs>
+
+            </refinfo>
+
+            <contents>
+                compositions of chymotryptic peptides</contents>
+
+            <contents>
+                sequences of residues 55-61 and 68-70</contents>
+
+            <accinfo label="ROT" >
+
+                <accession>
+                    A00003</accession>
+
+                <mol-type>
+                    protein</mol-type>
+
+                <seq-spec>
+                    1-104</seq-spec>
+
+            </accinfo>
+
+        </reference>
+
+        <classification>
+
+            <superfamily>
+                cytochrome c</superfamily>
+
+            <superfamily>
+                cytochrome c homology</superfamily>
+
+        </classification>
+
+        <keywords>
+
+            <keyword>
+                acetylated amino end</keyword>
+
+            <keyword>
+                chromoprotein</keyword>
+
+            <keyword>
+                electron transfer</keyword>
+
+            <keyword>
+                heme</keyword>
+
+            <keyword>
+                iron</keyword>
+
+            <keyword>
+                metalloprotein</keyword>
+
+            <keyword>
+                mitochondrion</keyword>
+
+            <keyword>
+                oxidative phosphorylation</keyword>
+
+            <keyword>
+                respiratory chain</keyword>
+
+        </keywords>
+
+        <feature label="CYC" >
+
+            <feature-type>
+                domain</feature-type>
+
+            <description>
+                cytochrome c homology</description>
+
+            <seq-spec>
+                4-98</seq-spec>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                modified-site</feature-type>
+
+            <description>
+                acetylated amino end (Gly)</description>
+
+            <seq-spec>
+                1</seq-spec>
+
+            <status>
+                experimental</status>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                binding-site</feature-type>
+
+            <description>
+                heme (Cys) (covalent)</description>
+
+            <seq-spec>
+                14,17</seq-spec>
+
+            <status>
+                predicted</status>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                binding-site</feature-type>
+
+            <description>
+                heme iron (His, Met) (axial ligands)</description>
+
+            <seq-spec>
+                18,80</seq-spec>
+
+            <status>
+                predicted</status>
+
+        </feature>
+
+        <summary>
+
+            <length>
+                104</length>
+
+            <type>
+                complete</type>
+
+            <status>
+                tentative</status>
+
+        </summary>
+
+        <sequence>
+
+            GDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGYSYTAANKNKGITWG
+            EDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE
+        </sequence>
+
+    </ProteinEntry>
+
+    <ProteinEntry id="CCMKP" >
+
+        <header>
+
+            <uid>
+                CCMKP</uid>
+
+            <accession>
+                A00004</accession>
+
+            <created_date>
+                17-Dec-1982</created_date>
+
+            <seq-rev_date>
+                17-Dec-1982</seq-rev_date>
+
+            <txt-rev_date>
+                03-Mar-2000</txt-rev_date>
+
+        </header>
+
+        <protein>
+
+            <name>
+                cytochrome c</name>
+
+        </protein>
+
+        <organism>
+
+            <source>
+                spider monkey</source>
+
+            <common>
+                spider monkey</common>
+
+            <formal>
+                Ateles sp.</formal>
+
+        </organism>
+
+        <reference>
+
+            <refinfo refid="A00004" >
+
+                <authors>
+
+                    <author>
+                        Margoliash, E.</author>
+
+                </authors>
+
+                <citation type="other" >
+                    unpublished results, cited by Shelnutt, J.A., Rousseau, D.L., Dethmers, J.K., and Margoliash, E., Biochemistry 20, 6485-6497</citation>
+
+                <year>
+                    1981</year>
+
+            </refinfo>
+
+            <accinfo label="MAR" >
+
+                <accession>
+                    A00004</accession>
+
+                <mol-type>
+                    protein</mol-type>
+
+                <seq-spec>
+                    1-104</seq-spec>
+
+            </accinfo>
+
+        </reference>
+
+        <classification>
+
+            <superfamily>
+                cytochrome c</superfamily>
+
+            <superfamily>
+                cytochrome c homology</superfamily>
+
+        </classification>
+
+        <keywords>
+
+            <keyword>
+                acetylated amino end</keyword>
+
+            <keyword>
+                chromoprotein</keyword>
+
+            <keyword>
+                electron transfer</keyword>
+
+            <keyword>
+                heme</keyword>
+
+            <keyword>
+                iron</keyword>
+
+            <keyword>
+                metalloprotein</keyword>
+
+            <keyword>
+                mitochondrion</keyword>
+
+            <keyword>
+                oxidative phosphorylation</keyword>
+
+            <keyword>
+                respiratory chain</keyword>
+
+        </keywords>
+
+        <feature label="CYC" >
+
+            <feature-type>
+                domain</feature-type>
+
+            <description>
+                cytochrome c homology</description>
+
+            <seq-spec>
+                4-98</seq-spec>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                modified-site</feature-type>
+
+            <description>
+                acetylated amino end (Gly)</description>
+
+            <seq-spec>
+                1</seq-spec>
+
+            <status>
+                predicted</status>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                binding-site</feature-type>
+
+            <description>
+                heme (Cys) (covalent)</description>
+
+            <seq-spec>
+                14,17</seq-spec>
+
+            <status>
+                predicted</status>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                binding-site</feature-type>
+
+            <description>
+                heme iron (His, Met) (axial ligands)</description>
+
+            <seq-spec>
+                18,80</seq-spec>
+
+            <status>
+                predicted</status>
+
+        </feature>
+
+        <summary>
+
+            <length>
+                104</length>
+
+            <type>
+                complete</type>
+
+        </summary>
+
+        <sequence>
+
+            GDVFKGKRIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQASGFTYTEANKNKGIIWG
+            EDTLMEYLENPKKYIPGTKMIFVGIKKKEERADLIAYLKKATNE
+        </sequence>
+
+    </ProteinEntry>
+
+    <ProteinEntry id="CCMS" >
+
+        <header>
+
+            <uid>
+                CCMS</uid>
+
+            <accession>
+                A23057</accession>
+
+            <accession>
+                A04604</accession>
+
+            <accession>
+                A00009</accession>
+
+            <created_date>
+                31-Dec-1990</created_date>
+
+            <seq-rev_date>
+                30-Sep-1991</seq-rev_date>
+
+            <txt-rev_date>
+                28-Jul-2000</txt-rev_date>
+
+        </header>
+
+        <protein>
+
+            <name>
+                cytochrome c [validated]</name>
+
+        </protein>
+
+        <organism>
+
+            <source>
+                mouse</source>
+
+            <common>
+                house mouse</common>
+
+            <formal>
+                Mus musculus</formal>
+
+        </organism>
+
+        <reference>
+
+            <refinfo refid="A23057" >
+
+                <authors>
+
+                    <author>
+                        Limbach, K.J.</author>
+
+                    <author>
+                        Wu, R.</author>
+
+                </authors>
+
+                <citation>
+                    Nucleic Acids Res.</citation>
+
+                <volume>
+                    13</volume>
+                <year>
+                    1985</year>
+                <pages>
+                    617-630</pages>
+
+                <title>
+                    Characterization of a mouse somatic cytochrome c gene and three cytochrome c pseudogenes.</title>
+
+                <xrefs>
+
+                    <xref>
+                        <db>
+                            MUID</db>
+                        <uid>
+                            85215501</uid>
+                    </xref>
+
+                </xrefs>
+
+            </refinfo>
+
+            <accinfo label="LIM" >
+
+                <accession>
+                    A23057</accession>
+
+                <mol-type>
+                    DNA</mol-type>
+
+                <seq-spec>
+                    1-105</seq-spec>
+
+                <xrefs>
+
+                    <xref>
+                        <db>
+                            EMBL</db>
+                        <uid>
+                            X01756</uid>
+                    </xref>
+
+                    <xref>
+                        <db>
+                            NID</db>
+                        <uid>
+                            g50618</uid>
+                    </xref>
+
+                    <xref>
+                        <db>
+                            PIDN</db>
+                        <uid>
+                            CAA25899.1</uid>
+                    </xref>
+
+                    <xref>
+                        <db>
+                            PID</db>
+                        <uid>
+                            g50619</uid>
+                    </xref>
+
+                </xrefs>
+
+                <exp-source>
+                    strain BALB/c</exp-source>
+
+            </accinfo>
+
+        </reference>
+
+        <reference>
+
+            <refinfo refid="A04604" >
+
+                <authors>
+
+                    <author>
+                        Carlson, S.S.</author>
+
+                    <author>
+                        Mross, G.A.</author>
+
+                    <author>
+                        Wilson, A.C.</author>
+
+                    <author>
+                        Mead, R.T.</author>
+
+                    <author>
+                        Wolin, L.D.</author>
+
+                    <author>
+                        Bowers, S.F.</author>
+
+                    <author>
+                        Foley, N.T.</author>
+
+                    <author>
+                        Muijsers, A.O.</author>
+
+                    <author>
+                        Margoliash, E.</author>
+
+                </authors>
+
+                <citation>
+                    Biochemistry</citation>
+
+                <volume>
+                    16</volume>
+                <year>
+                    1977</year>
+                <pages>
+                    1437-1442</pages>
+
+                <title>
+                    Primary structure of mouse, rat, and guinea pig cytochrome c.</title>
+
+                <xrefs>
+
+                    <xref>
+                        <db>
+                            MUID</db>
+                        <uid>
+                            77134768</uid>
+                    </xref>
+
+                </xrefs>
+
+            </refinfo>
+
+            <accinfo label="CAR" >
+
+                <accession>
+                    A04604</accession>
+
+                <mol-type>
+                    protein</mol-type>
+
+                <seq-spec>
+                    2-105</seq-spec>
+
+                <exp-source>
+                    strain BALB/c</exp-source>
+
+            </accinfo>
+
+        </reference>
+
+        <genetics>
+
+            <introns>
+                57/1</introns>
+
+        </genetics>
+
+        <classification>
+
+            <superfamily>
+                cytochrome c</superfamily>
+
+            <superfamily>
+                cytochrome c homology</superfamily>
+
+        </classification>
+
+        <keywords>
+
+            <keyword>
+                acetylated amino end</keyword>
+
+            <keyword>
+                chromoprotein</keyword>
+
+            <keyword>
+                electron transfer</keyword>
+
+            <keyword>
+                heme</keyword>
+
+            <keyword>
+                iron</keyword>
+
+            <keyword>
+                metalloprotein</keyword>
+
+            <keyword>
+                mitochondrion</keyword>
+
+            <keyword>
+                oxidative phosphorylation</keyword>
+
+            <keyword>
+                respiratory chain</keyword>
+
+        </keywords>
+
+        <feature label="MAT" >
+
+            <feature-type>
+                product</feature-type>
+
+            <description>
+                cytochrome c</description>
+
+            <seq-spec>
+                2-105</seq-spec>
+
+            <status>
+                experimental</status>
+
+        </feature>
+
+        <feature label="CYC" >
+
+            <feature-type>
+                domain</feature-type>
+
+            <description>
+                cytochrome c homology</description>
+
+            <seq-spec>
+                5-99</seq-spec>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                modified-site</feature-type>
+
+            <description>
+                acetylated amino end (Gly) (in mature form)</description>
+
+            <seq-spec>
+                2</seq-spec>
+
+            <status>
+                experimental</status>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                binding-site</feature-type>
+
+            <description>
+                heme (Cys) (covalent)</description>
+
+            <seq-spec>
+                15,18</seq-spec>
+
+            <status>
+                experimental</status>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                binding-site</feature-type>
+
+            <description>
+                heme iron (His, Met) (axial ligands)</description>
+
+            <seq-spec>
+                19,81</seq-spec>
+
+            <status>
+                predicted</status>
+
+        </feature>
+
+        <summary>
+
+            <length>
+                105</length>
+
+            <type>
+                complete</type>
+
+        </summary>
+
+        <sequence>
+
+            MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAAGFSYTDANKNKGITW
+            GEDTLMEYLENPKKYIPGTKMIFAGIKKKGERADLIAYLKKATNE
+        </sequence>
+
+    </ProteinEntry>
+
+    <ProteinEntry id="CCRT" >
+
+        <header>
+
+            <uid>
+                CCRT</uid>
+
+            <accession>
+                A04605</accession>
+
+            <accession>
+                C28160</accession>
+
+            <accession>
+                A00009</accession>
+
+            <created_date>
+                31-Dec-1990</created_date>
+
+            <seq-rev_date>
+                30-Sep-1991</seq-rev_date>
+
+            <txt-rev_date>
+                28-Jul-2000</txt-rev_date>
+
+        </header>
+
+        <protein>
+
+            <name>
+                cytochrome c [validated]</name>
+
+        </protein>
+
+        <organism>
+
+            <source>
+                rat</source>
+
+            <common>
+                Norway rat</common>
+
+            <formal>
+                Rattus norvegicus</formal>
+
+        </organism>
+
+        <reference>
+
+            <refinfo refid="A04605" >
+
+                <authors>
+
+                    <author>
+                        Scarpulla, R.C.</author>
+
+                    <author>
+                        Agne, K.M.</author>
+
+                    <author>
+                        Wu, R.</author>
+
+                </authors>
+
+                <citation>
+                    J. Biol. Chem.</citation>
+
+                <volume>
+                    256</volume>
+                <year>
+                    1981</year>
+                <pages>
+                    6480-6486</pages>
+
+                <title>
+                    Isolation and structure of a rat cytochrome c gene.</title>
+
+                <xrefs>
+
+                    <xref>
+                        <db>
+                            MUID</db>
+                        <uid>
+                            81215609</uid>
+                    </xref>
+
+                </xrefs>
+
+            </refinfo>
+
+            <accinfo label="SCA" >
+
+                <accession>
+                    A04605</accession>
+
+                <mol-type>
+                    DNA</mol-type>
+
+                <seq-spec>
+                    1-105</seq-spec>
+
+                <xrefs>
+
+                    <xref>
+                        <db>
+                            GB</db>
+                        <uid>
+                            K00750</uid>
+                    </xref>
+
+                    <xref>
+                        <db>
+                            GB</db>
+                        <uid>
+                            M28216</uid>
+                    </xref>
+
+                    <xref>
+                        <db>
+                            NID</db>
+                        <uid>
+                            g550511</uid>
+                    </xref>
+
+                    <xref>
+                        <db>
+                            PIDN</db>
+                        <uid>
+                            AAA21711.1</uid>
+                    </xref>
+
+                    <xref>
+                        <db>
+                            PID</db>
+                        <uid>
+                            g203699</uid>
+                    </xref>
+
+                </xrefs>
+
+            </accinfo>
+
+        </reference>
+
+        <reference>
+
+            <refinfo refid="A28160" >
+
+                <authors>
+
+                    <author>
+                        Virbasius, J.V.</author>
+
+                    <author>
+                        Scarpulla, R.C.</author>
+
+                </authors>
+
+                <citation>
+                    J. Biol. Chem.</citation>
+
+                <volume>
+                    263</volume>
+                <year>
+                    1988</year>
+                <pages>
+                    6791-6796</pages>
+
+                <title>
+                    Structure and expression of rodent genes encoding the testis-specific cytochrome c. Differences in gene structure and evolution between somatic and testicular variants.</title>
+
+                <xrefs>
+
+                    <xref>
+                        <db>
+                            MUID</db>
+                        <uid>
+                            88198250</uid>
+                    </xref>
+
+                </xrefs>
+
+            </refinfo>
+
+            <accinfo label="VIR" >
+
+                <accession>
+                    C28160</accession>
+
+                <mol-type>
+                    mRNA</mol-type>
+
+                <seq-spec>
+                    1-105</seq-spec>
+
+                <xrefs>
+
+                    <xref>
+                        <db>
+                            GB</db>
+                        <uid>
+                            M20622</uid>
+                    </xref>
+
+                    <xref>
+                        <db>
+                            NID</db>
+                        <uid>
+                            g203722</uid>
+                    </xref>
+
+                    <xref>
+                        <db>
+                            PIDN</db>
+                        <uid>
+                            AAA41014.1</uid>
+                    </xref>
+
+                    <xref>
+                        <db>
+                            PID</db>
+                        <uid>
+                            g203723</uid>
+                    </xref>
+
+                </xrefs>
+
+            </accinfo>
+
+        </reference>
+
+        <reference>
+
+            <refinfo refid="A04604" >
+
+                <authors>
+
+                    <author>
+                        Carlson, S.S.</author>
+
+                    <author>
+                        Mross, G.A.</author>
+
+                    <author>
+                        Wilson, A.C.</author>
+
+                    <author>
+                        Mead, R.T.</author>
+
+                    <author>
+                        Wolin, L.D.</author>
+
+                    <author>
+                        Bowers, S.F.</author>
+
+                    <author>
+                        Foley, N.T.</author>
+
+                    <author>
+                        Muijsers, A.O.</author>
+
+                    <author>
+                        Margoliash, E.</author>
+
+                </authors>
+
+                <citation>
+                    Biochemistry</citation>
+
+                <volume>
+                    16</volume>
+                <year>
+                    1977</year>
+                <pages>
+                    1437-1442</pages>
+
+                <title>
+                    Primary structure of mouse, rat, and guinea pig cytochrome c.</title>
+
+                <xrefs>
+
+                    <xref>
+                        <db>
+                            MUID</db>
+                        <uid>
+                            77134768</uid>
+                    </xref>
+
+                </xrefs>
+
+            </refinfo>
+
+            <contents>
+                annotation</contents>
+
+            <note>
+                peptide mapping, compositional analysis, and partial sequencing indicate that rat cytochrome c is identical with that of mouse</note>
+
+        </reference>
+
+        <genetics>
+
+            <introns>
+                57/1</introns>
+
+        </genetics>
+
+        <classification>
+
+            <superfamily>
+                cytochrome c</superfamily>
+
+            <superfamily>
+                cytochrome c homology</superfamily>
+
+        </classification>
+
+        <keywords>
+
+            <keyword>
+                blocked amino end</keyword>
+
+            <keyword>
+                chromoprotein</keyword>
+
+            <keyword>
+                electron transfer</keyword>
+
+            <keyword>
+                heme</keyword>
+
+            <keyword>
+                iron</keyword>
+
+            <keyword>
+                metalloprotein</keyword>
+
+            <keyword>
+                mitochondrion</keyword>
+
+            <keyword>
+                oxidative phosphorylation</keyword>
+
+            <keyword>
+                respiratory chain</keyword>
+
+        </keywords>
+
+        <feature label="MAT" >
+
+            <feature-type>
+                product</feature-type>
+
+            <description>
+                cytochrome c</description>
+
+            <seq-spec>
+                2-105</seq-spec>
+
+            <status>
+                experimental</status>
+
+        </feature>
+
+        <feature label="CYC" >
+
+            <feature-type>
+                domain</feature-type>
+
+            <description>
+                cytochrome c homology</description>
+
+            <seq-spec>
+                5-99</seq-spec>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                modified-site</feature-type>
+
+            <description>
+                blocked amino end (Gly) (in mature form) (probably acetylated)</description>
+
+            <seq-spec>
+                2</seq-spec>
+
+            <status>
+                experimental</status>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                binding-site</feature-type>
+
+            <description>
+                heme (Cys) (covalent)</description>
+
+            <seq-spec>
+                15,18</seq-spec>
+
+            <status>
+                experimental</status>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                binding-site</feature-type>
+
+            <description>
+                heme iron (His, Met) (axial ligands)</description>
+
+            <seq-spec>
+                19,81</seq-spec>
+
+            <status>
+                predicted</status>
+
+        </feature>
+
+        <summary>
+
+            <length>
+                105</length>
+
+            <type>
+                complete</type>
+
+        </summary>
+
+        <sequence>
+
+            MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAAGFSYTDANKNKGITW
+            GEDTLMEYLENPKKYIPGTKMIFAGIKKKGERADLIAYLKKATNE
+        </sequence>
+
+    </ProteinEntry>
+
+    <ProteinEntry id="CCRB" >
+
+        <header>
+
+            <uid>
+                CCRB</uid>
+
+            <accession>
+                A00009</accession>
+
+            <created_date>
+                13-Jul-1981</created_date>
+
+            <seq-rev_date>
+                13-Jul-1981</seq-rev_date>
+
+            <txt-rev_date>
+                28-Jul-2000</txt-rev_date>
+
+        </header>
+
+        <protein>
+
+            <name>
+                cytochrome c [validated]</name>
+
+        </protein>
+
+        <organism>
+
+            <source>
+                rabbit</source>
+
+            <common>
+                domestic rabbit</common>
+
+            <formal>
+                Oryctolagus cuniculus</formal>
+
+        </organism>
+
+        <reference>
+
+            <refinfo refid="A00009" >
+
+                <authors>
+
+                    <author>
+                        Needleman, S.B.</author>
+
+                    <author>
+                        Margoliash, E.</author>
+
+                </authors>
+
+                <citation>
+                    J. Biol. Chem.</citation>
+
+                <volume>
+                    241</volume>
+                <year>
+                    1966</year>
+                <pages>
+                    853-863</pages>
+
+                <title>
+                    Rabbit heart cytochrome c.</title>
+
+                <xrefs>
+
+                    <xref>
+                        <db>
+                            MUID</db>
+                        <uid>
+                            66093127</uid>
+                    </xref>
+
+                </xrefs>
+
+            </refinfo>
+
+            <accinfo label="NEE" >
+
+                <accession>
+                    A00009</accession>
+
+                <mol-type>
+                    protein</mol-type>
+
+                <seq-spec>
+                    1-104</seq-spec>
+
+            </accinfo>
+
+        </reference>
+
+        <classification>
+
+            <superfamily>
+                cytochrome c</superfamily>
+
+            <superfamily>
+                cytochrome c homology</superfamily>
+
+        </classification>
+
+        <keywords>
+
+            <keyword>
+                acetylated amino end</keyword>
+
+            <keyword>
+                chromoprotein</keyword>
+
+            <keyword>
+                electron transfer</keyword>
+
+            <keyword>
+                heme</keyword>
+
+            <keyword>
+                iron</keyword>
+
+            <keyword>
+                metalloprotein</keyword>
+
+            <keyword>
+                mitochondrion</keyword>
+
+            <keyword>
+                oxidative phosphorylation</keyword>
+
+            <keyword>
+                respiratory chain</keyword>
+
+        </keywords>
+
+        <feature label="CYC" >
+
+            <feature-type>
+                domain</feature-type>
+
+            <description>
+                cytochrome c homology</description>
+
+            <seq-spec>
+                4-98</seq-spec>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                modified-site</feature-type>
+
+            <description>
+                acetylated amino end (Gly)</description>
+
+            <seq-spec>
+                1</seq-spec>
+
+            <status>
+                experimental</status>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                binding-site</feature-type>
+
+            <description>
+                heme (Cys) (covalent)</description>
+
+            <seq-spec>
+                14,17</seq-spec>
+
+            <status>
+                experimental</status>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                binding-site</feature-type>
+
+            <description>
+                heme iron (His, Met) (axial ligands)</description>
+
+            <seq-spec>
+                18,80</seq-spec>
+
+            <status>
+                predicted</status>
+
+        </feature>
+
+        <summary>
+
+            <length>
+                104</length>
+
+            <type>
+                complete</type>
+
+        </summary>
+
+        <sequence>
+
+            GDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAVGFSYTDANKNKGITWG
+            EDTLMEYLENPKKYIPGTKMIFAGIKKKDERADLIAYLKKATNE
+        </sequence>
+
+    </ProteinEntry>
+
+    <ProteinEntry id="CCGW" >
+
+        <header>
+
+            <uid>
+                CCGW</uid>
+
+            <accession>
+                A04608</accession>
+
+            <accession>
+                A00009</accession>
+
+            <created_date>
+                31-Dec-1990</created_date>
+
+            <seq-rev_date>
+                31-Dec-1990</seq-rev_date>
+
+            <txt-rev_date>
+                28-Jul-2000</txt-rev_date>
+
+        </header>
+
+        <protein>
+
+            <name>
+                cytochrome c [validated]</name>
+
+        </protein>
+
+        <organism>
+
+            <source>
+                guanaco</source>
+
+            <common>
+                guanaco</common>
+
+            <formal>
+                Lama guanicoe</formal>
+
+        </organism>
+
+        <reference>
+
+            <refinfo refid="A04608" >
+
+                <authors>
+
+                    <author>
+                        Niece, R.L.</author>
+
+                    <author>
+                        Margoliash, E.</author>
+
+                    <author>
+                        Fitch, W.M.</author>
+
+                </authors>
+
+                <citation>
+                    Biochemistry</citation>
+
+                <volume>
+                    16</volume>
+                <year>
+                    1977</year>
+                <pages>
+                    68-72</pages>
+
+                <title>
+                    Complete amino acid sequence of guanaco (Lama guanicoe) cytochrome c.</title>
+
+                <xrefs>
+
+                    <xref>
+                        <db>
+                            MUID</db>
+                        <uid>
+                            77087753</uid>
+                    </xref>
+
+                </xrefs>
+
+            </refinfo>
+
+            <accinfo label="NIE" >
+
+                <accession>
+                    A04608</accession>
+
+                <mol-type>
+                    protein</mol-type>
+
+                <seq-spec>
+                    1-104</seq-spec>
+
+            </accinfo>
+
+        </reference>
+
+        <classification>
+
+            <superfamily>
+                cytochrome c</superfamily>
+
+            <superfamily>
+                cytochrome c homology</superfamily>
+
+        </classification>
+
+        <keywords>
+
+            <keyword>
+                acetylated amino end</keyword>
+
+            <keyword>
+                chromoprotein</keyword>
+
+            <keyword>
+                electron transfer</keyword>
+
+            <keyword>
+                heme</keyword>
+
+            <keyword>
+                iron</keyword>
+
+            <keyword>
+                metalloprotein</keyword>
+
+            <keyword>
+                mitochondrion</keyword>
+
+            <keyword>
+                oxidative phosphorylation</keyword>
+
+            <keyword>
+                respiratory chain</keyword>
+
+        </keywords>
+
+        <feature label="CYC" >
+
+            <feature-type>
+                domain</feature-type>
+
+            <description>
+                cytochrome c homology</description>
+
+            <seq-spec>
+                4-98</seq-spec>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                modified-site</feature-type>
+
+            <description>
+                acetylated amino end (Gly)</description>
+
+            <seq-spec>
+                1</seq-spec>
+
+            <status>
+                experimental</status>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                binding-site</feature-type>
+
+            <description>
+                heme (Cys) (covalent)</description>
+
+            <seq-spec>
+                14,17</seq-spec>
+
+            <status>
+                experimental</status>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                binding-site</feature-type>
+
+            <description>
+                heme iron (His, Met) (axial ligands)</description>
+
+            <seq-spec>
+                18,80</seq-spec>
+
+            <status>
+                predicted</status>
+
+        </feature>
+
+        <summary>
+
+            <length>
+                104</length>
+
+            <type>
+                complete</type>
+
+        </summary>
+
+        <sequence>
+
+            GDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAVGFSYTDANKNKGITWG
+            EETLMEYLENPKKYIPGTKMIFAGIKKKGERADLIAYLKKATNE
+        </sequence>
+
+    </ProteinEntry>
+
+    <ProteinEntry id="CCCM" >
+
+        <header>
+
+            <uid>
+                CCCM</uid>
+
+            <accession>
+                A04607</accession>
+
+            <accession>
+                A00009</accession>
+
+            <created_date>
+                31-Dec-1990</created_date>
+
+            <seq-rev_date>
+                31-Dec-1990</seq-rev_date>
+
+            <txt-rev_date>
+                03-Mar-2000</txt-rev_date>
+
+        </header>
+
+        <protein>
+
+            <name>
+                cytochrome c</name>
+
+        </protein>
+
+        <organism>
+
+            <source>
+                Arabian camel</source>
+
+            <common>
+                Arabian camel</common>
+
+            <formal>
+                Camelus dromedarius</formal>
+
+        </organism>
+
+        <reference>
+
+            <refinfo refid="A04607" >
+
+                <authors>
+
+                    <author>
+                        Sokolovsky, M.</author>
+
+                    <author>
+                        Moldovan, M.</author>
+
+                </authors>
+
+                <citation>
+                    Biochemistry</citation>
+
+                <volume>
+                    11</volume>
+                <year>
+                    1972</year>
+                <pages>
+                    145-149</pages>
+
+                <title>
+                    Primary structure of cytochrome c from the camel, Camelus dromedarius.</title>
+
+                <xrefs>
+
+                    <xref>
+                        <db>
+                            MUID</db>
+                        <uid>
+                            72096652</uid>
+                    </xref>
+
+                </xrefs>
+
+            </refinfo>
+
+            <accinfo label="SOK" >
+
+                <accession>
+                    A04607</accession>
+
+                <mol-type>
+                    protein</mol-type>
+
+                <seq-spec>
+                    1-104</seq-spec>
+
+            </accinfo>
+
+        </reference>
+
+        <classification>
+
+            <superfamily>
+                cytochrome c</superfamily>
+
+            <superfamily>
+                cytochrome c homology</superfamily>
+
+        </classification>
+
+        <keywords>
+
+            <keyword>
+                acetylated amino end</keyword>
+
+            <keyword>
+                chromoprotein</keyword>
+
+            <keyword>
+                electron transfer</keyword>
+
+            <keyword>
+                heme</keyword>
+
+            <keyword>
+                iron</keyword>
+
+            <keyword>
+                metalloprotein</keyword>
+
+            <keyword>
+                mitochondrion</keyword>
+
+            <keyword>
+                oxidative phosphorylation</keyword>
+
+            <keyword>
+                respiratory chain</keyword>
+
+        </keywords>
+
+        <feature label="CYC" >
+
+            <feature-type>
+                domain</feature-type>
+
+            <description>
+                cytochrome c homology</description>
+
+            <seq-spec>
+                4-98</seq-spec>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                modified-site</feature-type>
+
+            <description>
+                acetylated amino end (Gly)</description>
+
+            <seq-spec>
+                1</seq-spec>
+
+            <status>
+                experimental</status>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                binding-site</feature-type>
+
+            <description>
+                heme (Cys) (covalent)</description>
+
+            <seq-spec>
+                14,17</seq-spec>
+
+            <status>
+                predicted</status>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                binding-site</feature-type>
+
+            <description>
+                heme iron (His, Met) (axial ligands)</description>
+
+            <seq-spec>
+                18,80</seq-spec>
+
+            <status>
+                predicted</status>
+
+        </feature>
+
+        <summary>
+
+            <length>
+                104</length>
+
+            <type>
+                complete</type>
+
+        </summary>
+
+        <sequence>
+
+            GDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAVGFSYTDANKNKGITWG
+            EETLMEYLENPKKYIPGTKMIFAGIKKKGERADLIAYLKKATNE
+        </sequence>
+
+    </ProteinEntry>
+
+    <ProteinEntry id="CCWHC" >
+
+        <header>
+
+            <uid>
+                CCWHC</uid>
+
+            <accession>
+                A04606</accession>
+
+            <accession>
+                A00009</accession>
+
+            <created_date>
+                31-Dec-1990</created_date>
+
+            <seq-rev_date>
+                31-Dec-1990</seq-rev_date>
+
+            <txt-rev_date>
+                03-Mar-2000</txt-rev_date>
+
+        </header>
+
+        <protein>
+
+            <name>
+                cytochrome c</name>
+
+        </protein>
+
+        <organism>
+
+            <source>
+                California gray whale</source>
+
+            <common>
+                California gray whale</common>
+
+            <formal>
+                Eschrichtius robustus, Eschrichtius gibbosus</formal>
+
+        </organism>
+
+        <reference>
+
+            <refinfo refid="A04606" >
+
+                <authors>
+
+                    <author>
+                        Goldstone, A.</author>
+
+                    <author>
+                        Smith, E.L.</author>
+
+                </authors>
+
+                <citation>
+                    J. Biol. Chem.</citation>
+
+                <volume>
+                    241</volume>
+                <year>
+                    1966</year>
+                <pages>
+                    4480-4486</pages>
+
+                <title>
+                    Amino acid sequence of whale heart cytochrome c.</title>
+
+                <xrefs>
+
+                    <xref>
+                        <db>
+                            MUID</db>
+                        <uid>
+                            67041932</uid>
+                    </xref>
+
+                </xrefs>
+
+            </refinfo>
+
+            <accinfo label="GOL" >
+
+                <accession>
+                    A04606</accession>
+
+                <mol-type>
+                    protein</mol-type>
+
+                <seq-spec>
+                    1-104</seq-spec>
+
+            </accinfo>
+
+        </reference>
+
+        <classification>
+
+            <superfamily>
+                cytochrome c</superfamily>
+
+            <superfamily>
+                cytochrome c homology</superfamily>
+
+        </classification>
+
+        <keywords>
+
+            <keyword>
+                blocked amino end</keyword>
+
+            <keyword>
+                chromoprotein</keyword>
+
+            <keyword>
+                electron transfer</keyword>
+
+            <keyword>
+                heme</keyword>
+
+            <keyword>
+                iron</keyword>
+
+            <keyword>
+                metalloprotein</keyword>
+
+            <keyword>
+                mitochondrion</keyword>
+
+            <keyword>
+                oxidative phosphorylation</keyword>
+
+            <keyword>
+                respiratory chain</keyword>
+
+        </keywords>
+
+        <feature label="CYC" >
+
+            <feature-type>
+                domain</feature-type>
+
+            <description>
+                cytochrome c homology</description>
+
+            <seq-spec>
+                4-98</seq-spec>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                modified-site</feature-type>
+
+            <description>
+                blocked amino end (Gly) (probably acetylated)</description>
+
+            <seq-spec>
+                1</seq-spec>
+
+            <status>
+                experimental</status>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                binding-site</feature-type>
+
+            <description>
+                heme (Cys) (covalent)</description>
+
+            <seq-spec>
+                14,17</seq-spec>
+
+            <status>
+                predicted</status>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                binding-site</feature-type>
+
+            <description>
+                heme iron (His, Met) (axial ligands)</description>
+
+            <seq-spec>
+                18,80</seq-spec>
+
+            <status>
+                predicted</status>
+
+        </feature>
+
+        <summary>
+
+            <length>
+                104</length>
+
+            <type>
+                complete</type>
+
+        </summary>
+
+        <sequence>
+
+            GDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAVGFSYTDANKNKGITWG
+            EETLMEYLENPKKYIPGTKMIFAGIKKKGERADLIAYLKKATNE
+        </sequence>
+
+    </ProteinEntry>
+
+    <ProteinEntry id="CCPG" >
+
+        <header>
+
+            <uid>
+                CCPG</uid>
+
+            <accession>
+                A00007</accession>
+
+            <created_date>
+                17-Mar-1987</created_date>
+
+            <seq-rev_date>
+                17-Mar-1987</seq-rev_date>
+
+            <txt-rev_date>
+                28-Jul-2000</txt-rev_date>
+
+        </header>
+
+        <protein>
+
+            <name>
+                cytochrome c [validated]</name>
+
+        </protein>
+
+        <organism>
+
+            <source>
+                pig</source>
+
+            <common>
+                domestic pig</common>
+
+            <formal>
+                Sus scrofa domestica</formal>
+
+        </organism>
+
+        <reference>
+
+            <refinfo refid="A90743" >
+
+                <authors>
+
+                    <author>
+                        Stewart, J.W.</author>
+
+                    <author>
+                        Margoliash, E.</author>
+
+                </authors>
+
+                <citation>
+                    Can. J. Biochem.</citation>
+
+                <volume>
+                    43</volume>
+                <year>
+                    1965</year>
+                <pages>
+                    1187-1206</pages>
+
+                <title>
+                    The primary structure of the cytochrome c from various organs of the hog.</title>
+
+                <xrefs>
+
+                    <xref>
+                        <db>
+                            MUID</db>
+                        <uid>
+                            66072936</uid>
+                    </xref>
+
+                </xrefs>
+
+            </refinfo>
+
+            <accinfo label="STE" >
+
+                <accession>
+                    A00007</accession>
+
+                <mol-type>
+                    protein</mol-type>
+
+                <seq-spec>
+                    1-104</seq-spec>
+
+            </accinfo>
+
+        </reference>
+
+        <classification>
+
+            <superfamily>
+                cytochrome c</superfamily>
+
+            <superfamily>
+                cytochrome c homology</superfamily>
+
+        </classification>
+
+        <keywords>
+
+            <keyword>
+                acetylated amino end</keyword>
+
+            <keyword>
+                chromoprotein</keyword>
+
+            <keyword>
+                electron transfer</keyword>
+
+            <keyword>
+                heme</keyword>
+
+            <keyword>
+                iron</keyword>
+
+            <keyword>
+                metalloprotein</keyword>
+
+            <keyword>
+                mitochondrion</keyword>
+
+            <keyword>
+                oxidative phosphorylation</keyword>
+
+            <keyword>
+                respiratory chain</keyword>
+
+        </keywords>
+
+        <feature label="CYC" >
+
+            <feature-type>
+                domain</feature-type>
+
+            <description>
+                cytochrome c homology</description>
+
+            <seq-spec>
+                4-98</seq-spec>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                modified-site</feature-type>
+
+            <description>
+                acetylated amino end (Gly)</description>
+
+            <seq-spec>
+                1</seq-spec>
+
+            <status>
+                experimental</status>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                binding-site</feature-type>
+
+            <description>
+                heme (Cys) (covalent)</description>
+
+            <seq-spec>
+                14,17</seq-spec>
+
+            <status>
+                experimental</status>
+
+        </feature>
+
+        <feature>
+
+            <feature-type>
+                binding-site</feature-type>
+
+            <description>
+                heme iron (His, Met) (axial ligands)</description>
+
+            <seq-spec>
+                18,80</seq-spec>
+
+            <status>
+                predicted</status>
+
+        </feature>
+
+        <summary>
+
+            <length>
+                104</length>
+
+            <type>
+                complete</type>
+
+        </summary>
+
+        <sequence>
+
+            GDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGFSYTDANKNKGITWG
+            EETLMEYLENPKKYIPGTKMIFAGIKKKGEREDLIAYLKKATNE
+        </sequence>
+
+    </ProteinEntry>
+
+    <ProteinEntry id="CCBO" >
+
+        <header>
+
+            <uid>
+                CCBO</uid>
+
+            <accession>
+                A92022</accession>
+
+            <accession>
+                A00007</accession>
+
+            <created_date>
+                31-Mar-1992</created_date>
+
+            <seq-rev_date>
+                31-Mar-1992</seq-rev_date>
+
+            <txt-rev_date>
+                03-Mar-2000</txt-rev_date>
+
+        </header>
+
+        <protein>
+
+            <name>
+                cytochrome c</name>
+
+        </protein>
+
+        <organism>
+
+            <source>
+                bovine</source>
+
+            <common>
+                cattle</common>
+
+            <formal>
+                Bos primigenius taurus</formal>
+
+        </organism>
+
+        <reference>
+
+            <refinfo refid="A92022" >
+
+                <authors>
+
+                    <author>
+                        Nakashima, T.</author>
+
+                    <author>
+                        Higa, H.</author>
+
+                    <author>
+                        Matsubara, H.</author>
+
+                    <author>
+                        Benson, A.</author>
+
+                    <author>
+                        Yasunobu, K.T.</author>
+
+                </authors>
+
+                <citation>
+                    J. Biol. Chem.</citation>
+
+                <volume>
+                    241</volume>
+                <year>
+                    1966</year>
+                <pages>
+                    1166-1177</pages>
+
+                <title>
+                    The amino acid sequence of bovine heart cytochrome c.</title>
+
+                <xrefs>
+
+                    <xref>
+                        <db>
+                            MUID</db>
+                        <uid>
+                            66132521</uid>
+                    </xref>
+
+                </xrefs>
+
+            </refinfo>
+
+            <accinfo label="NAK" >
+
+                <accession>
+                    A92022</accession>
+
+                <mol-type>
+                    protein</mol-type>
+
+                <seq-spec>
+                    1-104</seq-spec>
+
+            </accinfo>
+
+        </reference>
+
+        <reference>
+
+            <refinfo refid="A61297" >
+
+                <authors>
+
+                    <author>
+                        Tsunasawa, S.</author>
+
+                    <author>
+                        Narita, K.</author>
+
+                </authors>
+
+                <citation>
+                    J. Biochem.</citation>
+
+                <volume>
+                    92</volume>
+                <year>
+                    1982</year>
+                <pages>
+                    607-613</pages>
+                <xml_repository> ALERT: data truncated here for web previewing. </xml_repository>
+            </refinfo>
+        </reference>
+    </ProteinEntry>
+</ProteinDatabase>
